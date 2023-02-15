@@ -92,19 +92,19 @@ main {
 }
 
 .btn-encrip {
-  background-image: url(/images/lock.png);
+  background-image: url(./images/lock.png);
   background-repeat: no-repeat;
   background-position: 10% 50%;
 }
 
 .btn-descrip {
-  background-image: url(/images/lock.png);
+  background-image: url(./images/lock.png);
   background-repeat: no-repeat;
   background-position: 10% 50%;
 }
 
 .btn-copy {
-  background-image: url(/images/copy.png);
+  background-image: url(./images/copy.png);
   background-repeat: no-repeat;
   background-position: 10% 50%;
   visibility: hidden;

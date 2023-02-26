@@ -1,5 +1,14 @@
 {
+    "build": {
+       "type": "maven",
+       "goal": "package"
+    },
     "deploy": {
-      "goal": "yourgoal"
+       "container": "TOMCAT8",
+       "war": [
+          {
+             "file": "java-web-3.0-SNAPSHOT.war"
+          }
+       ]
     }
-  }
+ }
